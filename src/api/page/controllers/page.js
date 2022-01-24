@@ -16,8 +16,8 @@ module.exports = createCoreController("api::page.page", ({ strapi }) => ({
       },
       populate: {
         hero: { populate: true },
-        boats: { populate: { boats: { populate: true } } },
         tours: { populate: { tours: { populate: true } } },
+        boats: { populate: { boats: { populate: true } } },
       },
     });
 
