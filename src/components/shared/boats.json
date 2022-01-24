@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_boats",
+  "info": {
+    "displayName": "boats",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "boats": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::boat.boat"
+    },
+    "title_one": {
+      "type": "string"
+    },
+    "title_two": {
+      "type": "string"
+    }
+  }
+}

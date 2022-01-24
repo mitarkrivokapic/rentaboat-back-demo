@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_tours",
+  "info": {
+    "displayName": "tours",
+    "icon": "globe-asia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_one": {
+      "type": "string"
+    },
+    "title_two": {
+      "type": "string"
+    },
+    "tours": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tour.tour"
+    }
+  }
+}
